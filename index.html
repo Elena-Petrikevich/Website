@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тригонометрические функции</title>
+</head>
+<body>
+    <h1>Вычисление тригонометрических функций</h1>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="POST">
+        <label for="angle">Угол:</label>
+        <input type="number" name="angle" id="angle" required>
+
+        <label for="unit">Единицы измерения:</label>
+        <select name="unit" id="unit">
+            <option value="градусы">Градусы</option>
+            <option value="радианы">Радианы</option>
+        </select>
+
+        <label for="function">Функция:</label>
+        <select name="function" id="function">
+            <option value="sin">sin</option>
+            <option value="cos">cos</option>
+            <option value="tan">tan</option>
+        </select>
+
+        <label for="precision">Точность:</label>
+        <input type="number" name="precision" id="precision" value="2" min="1">
+
+        <button type="submit">Рассчитать</button>
+    </form>
+
+    {% if result %}
+        <h2>Результат: {{ result }}</h2>
+    <h2>                               </h2>
+    <h2>Петрикевич (ПИН-232)</h2>
+    {% endif %}
+</body>
+</html>
