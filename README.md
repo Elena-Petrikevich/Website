@@ -1,1 +1,2 @@
-![image](https://github.com/Elena-Petrikevich/Website/assets/163896657/8c07914d-91fd-4c56-84b9-ab9cb6c2b5e5)
+![image](https://github.com/Elena-Petrikevich/Website/assets/163896657/01ceb862-66c0-4d01-b99d-d0dc8e31a76e)
+
